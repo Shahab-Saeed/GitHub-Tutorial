@@ -36,6 +36,7 @@
         <h1>COMMIT</h1>
         <p>Whenever we make any change in our repository, then it becomes a commit and this commit will store all the
             information about the chnages</p>
+            <h4>to check all the commits we will use git log command</h4>
     </div>
 
     <div>
@@ -262,7 +263,33 @@
 
             <h1>RESOLVING MERGE CONFLICTS</h1>
             <p>an event that takes place when git is unableto automatically resolve differences in code between two commits</p>
+            <p>this happens when we are making the same changes in a same file or in the same line</p>
+            <p>after committing the changes, we will use way 2 of mergingg code</p>
+            <p>git merge branchname</p>
+            
         </div>
+    </div>
+
+    <div>
+        <h1>Undoing Changes</h1>
+        <p>are the changes which we made by mistake</p>
+
+        <h3>Staged Changes</h3>
+        <p>suppose you have add or delete any line in a file and add it but not commited it yet , but now you want it back</p>
+        <p>so u will use git reset filenmae</p>
+        <p>but if there are so many files, you can use git reset</p>
+
+        <h3>Committed Changes(for one commit)</h3>
+        <p>suppose there is a change which we by mistake commited</p>
+        <p>to reset that we will use git reset HEAD~1</p>
+
+        <h3>committed changes (for many commit)</h3>
+        <p>if we want to reset multipple commits we can use thiis command</p>
+        <p>git reset commithash</p>
+        <p>but if we write gt reset --hard commithash</p>
+        <p>this will also reset the changes from our local repo</p>
+
+       
     </div>
 </body>
 
