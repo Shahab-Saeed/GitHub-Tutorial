@@ -176,14 +176,18 @@
             <p>git init</p>
             <p>it is used to create a new git repo</p>
             <p>to check whether the repo is git repo or not we use ls -a command in bash/cmd</p>
+            <p>if the repo is not git repo then we will use , git init command , in the terminal</p>
             <p>if the repo is not git repo , then we will  use this command</p>
 
 
         </div>
 
         <div>
-            <h1>Add new repo from your system</h1>
+            <h1>Add new repo from your local system</h1>
             <p>before using the push command we have to create the repository first in our github account, then we will use this command " git remote add origin enterLink" to push that code in the correct repo</p>
+            <h3>NOTE</h3>
+            <p>don't initialize readme.md while creating the repo on github, because we then have to put that readme file also on our local system</p>
+            <p>you can create it later on your local ssystem,once you  have made the repo on github</p>
         </div>
 
         <div>
@@ -201,7 +205,7 @@
         </div>
         <div>
             <h1>git checkout branchname</h1>
-            <p>used to go to the other branch whise name is written on the top</p>
+            <p>used to go to the other branch whose name is written with green color</p>
         </div>
         <div>
             <h1>git checkout -b newbranchname</h1>
@@ -212,6 +216,21 @@
             <p>used to delete the branch</p>
             <p>if you want to delete the branch , you have to amke sure that you are not working on that branch</p>
         </div>
+
+        <div>
+            <h1>PUSH COMMAND</h1>
+            <p>git push origin main/branch</p>
+            <p>changes we made using "git commit ..." command will be committed but we can't see that on github, so we use push command to also see that changes on our github</p>
+            <p>OR</p>
+            <p>to upload local content to remote repo</p>
+            <p>here origin is the other name of the remote repo on github in which we are making changes</p>
+        </div>
+
+        <div>
+            <h1>git push -u origin main</h1>
+            <p>if we are working on a long project, so we can use this command for once and then next time insted of writing such a long command, we can use "git push" only</p>
+        </div>
+        
     </div>
 
 
